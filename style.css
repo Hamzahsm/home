@@ -40,3 +40,8 @@ footer {
 footer svg {
     margin-top: -40px;
 }
+
+.quotes {
+    margin: 50px 0; 
+    width: 100%;
+}
