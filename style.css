@@ -18,11 +18,11 @@
 #top svg {
     width: 30px;
     height: 30px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 #top svg:hover {
-    opacity: 1; 
+    opacity: 0.8; 
 }
 
 
@@ -47,6 +47,10 @@
     text-align: center; 
     border: 1px solid silver;
     padding: 10px; 
+}
+
+.daftar {
+    margin-top: 70px;
 }
 
 .daftar h3 {
