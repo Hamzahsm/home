@@ -34,7 +34,8 @@ footer {
     position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 111%;
+    margin-left: -6%; 
 }
 
 footer svg {
