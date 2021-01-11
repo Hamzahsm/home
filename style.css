@@ -1,7 +1,11 @@
 .story h3{
     margin: 20px; 
     text-align: center;
-    
+
+}
+
+.story {
+    padding: 30px; 
 }
 
 

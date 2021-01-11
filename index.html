@@ -20,52 +20,29 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Story</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">history</a></li>
+            <li><a class="dropdown-item" href="#history">history</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">band members</a></li>
+            <li><a class="dropdown-item" href="#members">band members</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">awards and nominations</a></li>
+            <li><a class="dropdown-item" href="#awards">awards and nominations</a></li>
           </ul>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Album</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"></a></li>
-                <li><a class="dropdown-item" href="#">Post Human Surival Horor</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Amo</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">That's The Spirit</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Sempiternal</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">There is a Hell</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Count Blesssing</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
+            <!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#album" role="button" aria-expanded="false">Album</a> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#album">Albums</a>
+            </li>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">News</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Update</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">2020</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">2019</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
             <li class="nav-item">
               <a class="nav-link" href="#">videos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-          </li>
-          </li>
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+        </li>
           </ul>
     <!-- nav & navigation -->
 
@@ -106,7 +83,7 @@
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="history">
             History
           </button>
         </h2>
@@ -118,7 +95,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="members">
             Band Members
           </button>
         </h2>
@@ -137,7 +114,7 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="awards">
             Awards and Nominations
           </button>
         </h2>
@@ -159,13 +136,13 @@
 
     <!-- album collection -->
 <div class="album-collections">
-    <h3>Album</h3>
+    <h3  id="album"> Album</h3>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card">
             <img src="img/amo.jpg" class="card-img-top" alt="this is amo">
             <div class="card-body">
-              <h6 class="card-title">Amo</h6>
+              <h6 class="card-title" id="amo">Amo</h6>
             <a href="#" class="btn btn-primary">Detail</a>
             </div>
           </div>
@@ -174,7 +151,7 @@
           <div class="card">
             <img src="img/BMTH_Sempiternal.png" class="card-img-top" alt="sempiternal cover">
             <div class="card-body">
-              <h6 class="card-title">Sempiternal</h6>
+              <h6 class="card-title" id="sempiternal">Sempiternal</h6>
             <a href="#" class="btn btn-primary">Detail</a>
             </div>
           </div>
@@ -183,7 +160,7 @@
           <div class="card">
             <img src="img/survival horor.jpg" class="card-img-top" alt="survival-horor bmth cover">
             <div class="card-body">
-              <h6 class="card-title">Post Human</h6>
+              <h6 class="card-title" id="post-human">Post Human</h6>
               <a href="#" class="btn btn-primary">Detail</a>
             </div>
           </div>
@@ -192,7 +169,7 @@
           <div class="card">
             <img src="img/bmth.jpg" class="card-img-top" alt="drown-bmth">
             <div class="card-body">
-              <h6 class="card-title">That's the Spirit</h6>
+              <h6 class="card-title" id="thats-spirit">That's the Spirit</h6>
               <a href="#" class="btn btn-primary">Detail</a>
             </div>
           </div>
@@ -201,7 +178,7 @@
         <div class="card">
           <img src="img/BMTH_There_Is_a_Hell.png" class="card-img-top" alt="survival-horor bmth cover">
           <div class="card-body">
-            <h6 class="card-title">There Is a Hell</h6>
+            <h6 class="card-title" id="there-is-a-hell">There Is a Hell</h6>
             <a href="#" class="btn btn-primary">Detail</a>
           </div>
         </div>
@@ -210,7 +187,7 @@
         <div class="card">
           <img src="img/suicideseason.jpg" class="card-img-top" alt="survival-horor bmth cover">
           <div class="card-body">
-            <h6 class="card-title">Suicide Season</h6>
+            <h6 class="card-title" id="suicide-season">Suicide Season</h6>
             <a href="#" class="btn btn-primary">Detail</a>
           </div>
         </div>
@@ -219,7 +196,7 @@
         <div class="card">
           <img src="img/BMTH_Count_Your_Blessings.png" class="card-img-top" alt="survival-horor bmth cover">
           <div class="card-body">
-            <h6 class="card-title">Count Your</h6>
+            <h6 class="card-title" id="count-blessing">Count Your</h6>
             <a href="#" class="btn btn-primary">Detail</a>
           </div>
         </div>
@@ -228,10 +205,37 @@
     </div>
     <!-- album collection finished -->
 
+
+<!-- news start here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- news end here -->
+
+
+
 <!-- gallery start here -->
 
 <div class="container gallery">
-  <h3>Gallery</h3>
+  <h3 id="gallery">Gallery</h3>
   <!-- Stack the columns on mobile by making one full-width and the other half-width -->
   <div class="row">
     <div class="col-md-8">
